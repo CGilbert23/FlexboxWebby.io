@@ -1,0 +1,276 @@
+body {
+    background-color: #BCBBC6;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B3154;
+    color:white;
+}
+
+header img{
+    width: 26%;
+}
+
+header h2{
+    font-size: 20px;;
+}
+
+header h2, h5{
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+}
+
+.headerLeft{
+    display: flex;
+}
+
+.headerDescription{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerNav{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    align-items: flex-end;
+    
+    
+}
+
+.headerNav a{
+    margin-right: 3px;
+    padding-right: 3px;
+    color: white;
+}
+
+.headerNav a:hover{
+    color: goldenrod;
+}
+
+
+/* About Me Section */
+
+.topContent{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-bottom: 10px;;
+}
+
+
+.aboutMe h2{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    color:#C64F46;
+}
+
+
+
+.favList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.favItem h6, ul{
+    margin-top:3px;
+    margin-bottom: 5px;
+}
+
+.favList ul{
+    padding-left: 20px;
+}
+.favList li{
+    font-size: 12px;
+}
+
+
+/*Skill section*/
+
+.skills h2{
+    margin-top: 35px;
+    color:#C64F46;
+}
+.skillSection{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+.skillItem{
+    margin-bottom: 10px;
+}
+.skillItem p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+
+/*Projects*/
+
+.projects h2{
+    margin-top: 35px;
+    color: #C64F46;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img{
+    width: 100%;
+}
+.proj{
+   width: 250px;
+   margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+.proj h5{
+    margin-left: 0px;
+   
+
+}
+
+.proj p{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+/* Footer*/
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.form h4{
+    color: #C64F46;
+    margin-bottom: 20px;
+}
+.form input{
+    margin-bottom: 10px;
+    
+}
+.formItem{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.formItem label{
+    padding-right: 10px;
+}
+
+
+.form button{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.social{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 60px;
+}
+.btn{
+    display: flex;
+}
+
+.linked{
+    padding:3px 8px;
+    text-decoration: none;
+    color:white;
+    background-color: #4986E3;
+    border-radius: 10px;
+}
+
+.git{
+    padding: 3px 8px;
+    background-color: #04080C;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;;
+}
+
+.btn a:hover{
+    color:goldenrod;
+}
+
+
+
+
+/* BIG SCRREN*/
+
+
+@media all and (min-width:650px){
+
+        body p{
+            font-size: 16px;
+        }
+      
+
+        header img{
+            width:33%
+        }
+
+        header h2{
+            font-size:30px;
+        }
+
+        .headerNav a{
+            padding-right: 3px;
+        }
+
+        .favItem h6{
+            font-size: 14px;
+        }
+
+        .favList li{
+            font-size: 14px;;
+        }
+
+        .skillSection{
+            padding-left: 30px;
+
+        }
+
+        .skillSection, .proj h5{
+            font-size: 16px;
+        }
+
+        .proj{
+            width: 40%;
+        }
+
+        .proj a{
+            font-size: 14px;
+        }
+
+        .contact h4{
+            margin-top: 35px;
+        }
+
+        
+
+}
