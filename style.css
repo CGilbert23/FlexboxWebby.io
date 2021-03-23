@@ -154,13 +154,13 @@ header h2, h5{
     
 }
 
-/* Footer*/
+/* Footer
 
 .contact{
     display: flex;
     flex-direction: column;
     width: 60%;
-    justify-content: space-between;
+    justify-content: space-between;*/
 }
 
 .form{
@@ -243,7 +243,9 @@ margin-left: 60px;
             font-size: 16px;
         }
       
-
+        .topContent p{
+            display: flex;
+        }
         header img{
             width:33%
         }
