@@ -58,11 +58,16 @@ header h2, h5{
     display: flex;
     flex-wrap: wrap;
     font-size: 14px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    color:black;
 }
 
+.topContent p{
+    margin: 3px;
 
-.aboutMe h2{
+}
+
+.aboutMe, .intro h2{
     margin-top: 30px;
     margin-bottom: 8px;
     color:#C64F46;
@@ -217,6 +222,15 @@ margin-left: 60px;
     color:goldenrod;
 }
 
+
+@media all and (max-width:400px){
+    .headerContainer{
+        flex-direction: column; 
+    }
+    .headerNav{
+        justify-content: center;
+    }
+}
 
 
 
