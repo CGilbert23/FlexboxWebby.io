@@ -223,7 +223,7 @@ margin-left: 60px;
 }
 
 
-@media all and (max-width:400px){
+@media all and (max-width:500px){
     .headerContainer{
         flex-direction: column; 
     }
